@@ -97,8 +97,8 @@ let totalNetSum = 0;
 totalNetSum = finances.reduce((accumulator, value) => {
   return accumulator + value[1];
 }, 0);
-
 console.log(`Total: £${totalNetSum}`);
+
 
 let differences = [];
 let profitGain = 0;
